@@ -8,6 +8,7 @@ public abstract class CompositShape implements IShap{
 	protected ArrayList<IShap> shapes;
 	
 	public CompositShape() {
+		// TODO Auto-generated constructor stub
 		shapes = new ArrayList<>();
 	}
 	
