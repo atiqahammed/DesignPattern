@@ -1,0 +1,18 @@
+package allShapes;
+
+import java.util.ArrayList;
+
+public abstract class CompositShape implements IShap{
+
+	private ArrayList<IShap> shapes;
+	
+	@Override
+	public void drow() {
+		// TODO Auto-generated method stub
+		buildShap();
+		
+	}
+	
+	public abstract void buildShap(); 
+
+}

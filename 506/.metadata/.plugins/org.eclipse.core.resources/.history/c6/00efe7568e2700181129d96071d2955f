@@ -1,0 +1,13 @@
+package allShapes;
+
+public abstract class CompositShape implements IShap{
+
+	@Override
+	public void drow() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public abstract void buildShap(); 
+
+}
