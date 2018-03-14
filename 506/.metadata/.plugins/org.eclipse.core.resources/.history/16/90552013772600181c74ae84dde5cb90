@@ -1,0 +1,8 @@
+package observer;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class Subject {
+	private ArrayList<Observer> observers;
+}

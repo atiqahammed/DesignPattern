@@ -1,0 +1,7 @@
+package Economic;
+
+import Tour.Tour;
+
+public class EconomicTour extends Tour {
+
+}

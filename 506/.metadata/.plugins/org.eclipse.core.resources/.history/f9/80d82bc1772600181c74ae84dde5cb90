@@ -1,0 +1,27 @@
+package observer;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class Subject {
+	private ArrayList<Observer> observers;
+	
+	
+	public Subject() {
+		
+	}
+	
+	
+	
+	public void registerObserver(Observer observer) {
+		
+	}
+	
+	public void deleteObserver(Observer observer) {
+		
+	}
+	
+	public void notifyAllObserver() {
+		
+	}
+}

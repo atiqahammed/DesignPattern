@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Tour.LuxaryTour"/>
+<fullyQualifiedTypeName name="Tour.Tour"/>
+<fullyQualifiedTypeName name="Tour.RelaxTour"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="observer.Subject"/>
+<fullyQualifiedTypeName name="observer.CompanyA"/>
+<fullyQualifiedTypeName name="observer.UserA"/>
+<fullyQualifiedTypeName name="observer.Observer"/>
+<fullyQualifiedTypeName name="privateClasses.DatabaseInstance"/>
+</qualifiedTypeNameHistroy>

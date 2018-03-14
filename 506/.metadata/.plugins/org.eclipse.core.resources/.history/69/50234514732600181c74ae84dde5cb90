@@ -1,0 +1,17 @@
+package Tour;
+
+public abstract class Tour {
+	protected void makeATour() {
+		journeyFromDhakaToCox();
+		khoyaDaoya();
+		sunButh();
+		roamingAround();
+		journeyFromCoxToDhaka();
+	}
+	
+	abstract void journeyFromCoxToDhaka();
+	abstract void roamingAround();
+	abstract void journeyFromDhakaToCox();
+	abstract void khoyaDaoya();
+	abstract void sunButh();
+}

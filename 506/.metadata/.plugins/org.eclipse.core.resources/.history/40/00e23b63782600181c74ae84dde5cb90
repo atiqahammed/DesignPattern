@@ -1,0 +1,11 @@
+package observer;
+
+public class CompanyA extends Subject{
+	private int salePrize;
+	
+	public CompanyA(int price) {
+		
+	}
+	
+	
+}

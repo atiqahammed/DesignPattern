@@ -1,0 +1,18 @@
+package observer;
+
+public class CompanyA extends Subject{
+	private int salePrize;
+	
+	public CompanyA(int price) {
+		this.salePrize = price;
+	}
+	
+	
+	private void increaseSalePrice(int price) {
+		if(price > 0) {
+			
+		}
+	}
+	
+	
+}
