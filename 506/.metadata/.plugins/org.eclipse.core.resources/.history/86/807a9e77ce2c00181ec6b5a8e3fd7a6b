@@ -1,0 +1,16 @@
+package test;
+
+public class MyPlayer {
+	private IAdvanceMediaPalyer advancePlayer;
+	private MediaPlayer mediaPlayer;
+	
+	public MyPlayer(IAdvanceMediaPalyer advancePlayer) {
+		this.advancePlayer = advancePlayer; 
+	}
+	public MyPlayer(MediaPlayer mediaPlayer) {
+		this.mediaPlayer = mediaPlayer;
+	}
+	
+	
+	
+}
