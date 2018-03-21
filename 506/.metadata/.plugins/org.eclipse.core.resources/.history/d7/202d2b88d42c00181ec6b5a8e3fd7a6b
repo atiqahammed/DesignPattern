@@ -1,0 +1,12 @@
+package image;
+
+public class RealImage {
+	public RealImage() {
+		builtImage();
+	}
+
+	private void builtImage() {
+		// TODO Auto-generated method stub
+		
+	}
+}
