@@ -1,0 +1,24 @@
+package test;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IA ia = new A();
+		
+		
+		System.out.println("calling f1");
+		ia.f1();
+		
+		System.out.println("calling f2");
+		ia.f2();
+		
+		System.out.println("calling f3");
+		ia.f3();
+		
+		
+		
+		
+	}
+
+}
