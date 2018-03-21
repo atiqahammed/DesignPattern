@@ -15,8 +15,6 @@ public class Main {
 		 mediaPlayer.play();
 		 
 		 mediaPlayer = new Adapter(mp4Player);
-		 mediaPlayer.play();
-		 mediaPlayer = new MP3Player();
-		 mediaPlayer.play();
+		 
 	}
 }
