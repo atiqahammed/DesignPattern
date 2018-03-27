@@ -1,0 +1,30 @@
+package flagAssignment;
+
+import java.awt.Graphics;
+import java.awt.GraphicsConfiguration;
+import java.awt.HeadlessException;
+
+import javax.swing.JFrame;
+
+//import com.sun.prism.Graphics;
+
+public class Window extends JFrame{
+
+
+
+	public Window() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setSize(800, 500);
+	}
+
+	public void paint(Graphics g) {
+		//new Flag(getRectangleCooRdinate(), new Point(130, 120), 20).buildShape(g);
+
+	}
+
+
+
+
+
+
+}

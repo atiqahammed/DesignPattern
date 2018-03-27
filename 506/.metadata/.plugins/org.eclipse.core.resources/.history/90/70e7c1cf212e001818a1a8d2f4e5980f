@@ -1,0 +1,21 @@
+package bidAssignment;
+
+import java.util.ArrayList;
+
+
+public class Auctioneer extends BidObserver{
+
+	
+	private static Auctioneer auctioneer;
+	private ArrayList<BidObserver> bidObservers;
+	
+	public Auctioneer() {
+		bidObservers = new ArrayList<>();
+	}
+	
+	public void addObserver(BidObserver observer) {
+		bidObservers.add(observer);
+	}
+	
+	
+}

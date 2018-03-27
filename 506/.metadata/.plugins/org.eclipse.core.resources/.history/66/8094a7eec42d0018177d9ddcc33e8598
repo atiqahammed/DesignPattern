@@ -1,0 +1,5 @@
+package flagAssignment;
+
+public interface Shape {
+
+}

@@ -1,0 +1,5 @@
+package flagAssignment;
+
+public class Window extends JFrame{
+
+}

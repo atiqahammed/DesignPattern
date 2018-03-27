@@ -1,9 +1,0 @@
-package Tour;
-
-public abstract class Tour {
-	protected void makeATour() {
-		
-	}
-	
-	abstract void journeyFromCoxToDhaka();
-}

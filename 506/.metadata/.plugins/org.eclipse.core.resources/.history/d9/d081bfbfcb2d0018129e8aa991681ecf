@@ -1,0 +1,8 @@
+package allShapes;
+
+import java.awt.Graphics;
+
+public interface IShap {
+	public void drow();
+	void drow(Graphics graphics);
+}

@@ -1,0 +1,16 @@
+package bidAssignment;
+
+public class Bidder extends BidObserver{
+
+	public void bid(int amount) {
+		Auctioneer auctioneer = Auctioneer.getAuctioneer();
+		Bidder bidder1 = new Bidder();
+		Bidder bidder2 = new Bidder();
+		
+		auctioneer.addObserver(bidder1);
+		auctioneer.addObserver(bidder2);
+		
+		bidder1.bid(20);
+	}
+	
+}

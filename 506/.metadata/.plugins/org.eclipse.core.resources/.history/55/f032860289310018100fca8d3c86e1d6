@@ -1,0 +1,8 @@
+package factory;
+
+public interface IFactory {
+	void createRoom();
+	void createWindow();
+	void createDoor();
+	
+}

@@ -1,0 +1,8 @@
+package bidAssignment;
+
+public class Auctioneer extends BidObserver{
+
+	
+	
+	
+}

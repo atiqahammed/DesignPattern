@@ -1,0 +1,25 @@
+package factory;
+
+public class WoodenFactory implements IFactory{
+
+	@Override
+	public IRoom createRoom() {
+		
+		
+	}
+
+	@Override
+	public IWindow createWindow() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public IDoor createDoor() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

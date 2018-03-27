@@ -1,0 +1,36 @@
+package bidAssignment;
+
+import java.util.ArrayList;
+
+import privateClasses.DatabaseInstance;
+
+
+public class Auctioneer extends BidObserver{
+
+	
+	private static Auctioneer auctioneer;
+	private ArrayList<BidObserver> bidObservers;
+	
+	public static Auctioneer getAuctioneer() {
+		if(databaseInstance == null) {
+			synchronized (DatabaseInstance.class) {
+				if(databaseInstance == null) {
+					databaseInstance = new DatabaseInstance();
+				}
+				return databaseInstance;
+			}
+		}
+		return databaseInstance;
+	}
+	
+	
+	public Auctioneer() {
+		bidObservers = new ArrayList<>();
+	}
+	
+	public void addObserver(BidObserver observer) {
+		bidObservers.add(observer);
+	}
+	
+	
+}

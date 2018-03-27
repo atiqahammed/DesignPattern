@@ -1,5 +1,0 @@
-package allShapes;
-
-public interface IShap {
-
-}

@@ -1,0 +1,32 @@
+package main;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import factory.GlassRoom;
+import factory.IFactory;
+import factory.IRoom;
+import factory.StealRoom;
+import factory.WoodenRoom;
+
+public class Factory {
+	private Map<String, IRoom> rooms;
+	private Map<String, IFactory> factories;
+	
+	public Factory() {
+		initializeRooms();
+	}
+
+	private void initializeRooms() {
+		rooms = new HashMap<>();
+		rooms.put("wooden room", new WoodenRoom());
+		rooms.put("glass room", new GlassRoom());
+		rooms.put("steal room", new StealRoom());
+		
+	}
+
+	public IRoom getRoom(String roomName) {
+		return rooms.get(roomName);
+	}
+	
+}

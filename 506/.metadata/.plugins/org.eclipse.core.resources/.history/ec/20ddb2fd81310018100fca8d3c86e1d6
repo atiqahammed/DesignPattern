@@ -1,0 +1,11 @@
+package factory;
+
+public class StealRoom implements IRoom{
+
+	@Override
+	public void printRoomType() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

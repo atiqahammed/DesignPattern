@@ -1,0 +1,13 @@
+package factory;
+
+public class RoomFactory implements IFactory{
+
+	@Override
+	public void createRoom() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

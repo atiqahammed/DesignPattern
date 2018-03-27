@@ -1,0 +1,37 @@
+package main;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+import javax.swing.plaf.nimbus.NimbusLookAndFeel;
+
+import factory.IRoom;
+import factory.WoodenRoom;
+
+public class Test {
+
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, IRoom> rooms;
+		rooms = new HashMap<>();
+		
+		rooms.put("wooden room", new WoodenRoom());
+		rooms.put("glass room", new WoodenRoom());
+		rooms.put("steal room", new WoodenRoom());
+		
+		Scanner input = new Scanner(System.in);
+		String roomName = input.nextLine();
+		
+		IRoom myRoom = rooms.get(roomName);
+		
+		
+		
+
+	}
+	
+	
+
+}

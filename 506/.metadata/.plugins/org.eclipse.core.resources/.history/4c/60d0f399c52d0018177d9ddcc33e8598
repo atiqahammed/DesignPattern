@@ -1,0 +1,16 @@
+package flagAssignment;
+
+import java.util.ArrayList;
+
+
+public class CompositShape implements Shape{
+
+	protected ArrayList<Shape> shapes;
+
+	@Override
+	public void drow() {
+
+	}
+
+}
+
