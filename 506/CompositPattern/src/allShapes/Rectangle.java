@@ -37,6 +37,16 @@ public class Rectangle extends CompositShape{
 		shapes.add(new Line(new Point(0, 50), new Point(50, 50)));
 	}
 
+	@Override
+	public IShap copy() {
+		try {
+			return (IShap)super.clone();
+		} catch (CloneNotSupportedException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+
 	
 
 }

@@ -1,5 +1,0 @@
-package bidAssignment;
-
-public class Bidder extends BidObserver{
-
-}

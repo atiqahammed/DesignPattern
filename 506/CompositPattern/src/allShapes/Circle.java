@@ -24,4 +24,16 @@ public class Circle implements IShap {
 		graphics.fillOval(center.getxCoOrdinate(), center.getyCoOrdinate(), redius, redius);
 	}
 
+	@Override
+	public IShap copy() {
+		// TODO Auto-generated method stub
+		try {
+			return (IShap)super.clone();
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+
 }

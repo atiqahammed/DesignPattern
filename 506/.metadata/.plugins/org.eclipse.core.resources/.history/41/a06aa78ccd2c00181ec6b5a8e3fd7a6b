@@ -1,7 +1,0 @@
-package test;
-
-public class MediaPlayer {
-	public void paly() {
-		System.out.println("playing mp3 file");
-	}
-}

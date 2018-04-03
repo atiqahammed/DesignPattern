@@ -28,4 +28,16 @@ public class Line implements IShap {
 		this.end = end;
 	}
 
+	@Override
+	public IShap copy() {
+		try {
+			return (IShap)super.clone();
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+
 }

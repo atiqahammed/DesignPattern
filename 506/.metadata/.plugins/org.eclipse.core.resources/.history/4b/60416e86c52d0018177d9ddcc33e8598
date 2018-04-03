@@ -1,9 +1,0 @@
-package flagAssignment;
-
-import java.util.ArrayList;
-
-
-public abstract class CompositShape implements Shape{
-
-}
-

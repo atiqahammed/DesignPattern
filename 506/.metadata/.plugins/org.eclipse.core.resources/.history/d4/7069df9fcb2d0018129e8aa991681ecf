@@ -1,5 +1,0 @@
-package flagAssignment;
-
-public interface Shape {
-	public void drow();
-}

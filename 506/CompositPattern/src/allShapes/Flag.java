@@ -18,4 +18,16 @@ public class Flag extends CompositShape{
 		shapes.add(new Circle(new Point(170, 150), 100));
 	}
 
+
+	@Override
+	public IShap copy() {
+		try {
+			return (IShap)super.clone();
+		} catch (CloneNotSupportedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
+	}
+
 }
