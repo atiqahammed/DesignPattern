@@ -1,0 +1,18 @@
+package Assignment;
+
+import java.util.Map;
+
+public class Director {
+		
+	private Map<String, FoodPackage> foodPackageMap;
+	
+	public Director() {
+		
+	}
+	
+	
+	public FoodPackage getPackage(String packageName) {
+		return foodPackageMap.get(packageName);
+	}
+	
+}

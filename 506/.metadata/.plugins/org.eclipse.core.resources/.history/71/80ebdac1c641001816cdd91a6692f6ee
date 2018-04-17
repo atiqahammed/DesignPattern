@@ -1,0 +1,13 @@
+package all;
+
+public class Remote {
+
+	public void upButton() {
+		System.out.println("volume up");
+	}
+
+	public void downButton() {
+		System.out.println("volume down");
+	}
+
+}

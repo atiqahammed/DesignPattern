@@ -1,0 +1,24 @@
+package all;
+
+public class ElectronicDevice {
+	public void upButton() {
+		System.out.println("volume up");
+	}
+
+	public void downButton() {
+		System.out.println("volume down");
+	}
+
+	public void rightButton() {
+
+	}
+
+	public void rightLeft() {
+
+	}
+
+	public void centerButton() {
+
+	}
+
+}

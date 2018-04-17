@@ -1,0 +1,15 @@
+package Assignment;
+
+public class CocaCola implements FoodItem{
+
+	private String name;
+	public CocaCola() {
+		name = "Cocacola";
+	}
+	
+	@Override
+	public void foodItemDetails() {
+		System.out.println(name);
+	}
+
+}

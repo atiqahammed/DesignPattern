@@ -1,0 +1,13 @@
+package Assignment;
+
+public class Water implements FoodItem{
+	private String name;
+	public Water() {
+		name = "Cocacola";
+	}
+	
+	@Override
+	public void foodItemDetails() {
+		System.out.println(name);
+	}
+}

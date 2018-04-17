@@ -1,0 +1,9 @@
+package Assignment;
+
+public class CocaCola extends FoodItemPar {
+
+	public CocaCola() {
+		name = "Cocacola";
+	}
+
+}

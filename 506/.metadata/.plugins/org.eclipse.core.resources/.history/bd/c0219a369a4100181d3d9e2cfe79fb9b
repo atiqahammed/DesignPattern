@@ -1,0 +1,11 @@
+package Assignment;
+
+public class CocaCola implements FoodItem{
+
+	@Override
+	public void foodItemDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package all;
+
+public class MuteRemote extends Remote{
+
+	@Override
+	public void centerButton() {
+		System.out.println("video mute");
+		
+	}
+
+}

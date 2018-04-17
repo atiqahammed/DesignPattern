@@ -1,0 +1,18 @@
+package all;
+
+public abstract class Remote{
+
+	
+	public void rightButton() {
+		System.out.println("next video");
+		
+	}
+
+	
+	public void leftButton() {
+		System.out.println("previous video");
+	}
+	
+	public abstract void centerButton();
+
+}

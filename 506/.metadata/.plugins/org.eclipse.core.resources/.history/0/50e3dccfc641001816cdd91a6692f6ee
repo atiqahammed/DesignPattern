@@ -1,0 +1,12 @@
+package all;
+
+public abstract class ElectronicDevice {
+	
+
+	public abstract void rightButton();
+
+	public abstract void rightLeft(); 
+
+	
+
+}

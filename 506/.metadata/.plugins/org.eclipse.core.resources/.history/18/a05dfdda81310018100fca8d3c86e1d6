@@ -1,5 +1,0 @@
-package factory;
-
-public class WoodenRoom implements IRoom{
-
-}

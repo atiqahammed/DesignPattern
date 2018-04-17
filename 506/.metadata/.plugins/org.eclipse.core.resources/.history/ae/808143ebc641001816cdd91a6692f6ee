@@ -1,0 +1,24 @@
+package all;
+
+public class Remote extends ElectronicDevice{
+
+	@Override
+	public void rightButton() {
+		System.out.println("next video");
+		
+	}
+
+	@Override
+	public void leftButton() {
+		System.out.println("previous video");
+	}
+	
+	
+	
+
+	
+	
+	
+	
+
+}

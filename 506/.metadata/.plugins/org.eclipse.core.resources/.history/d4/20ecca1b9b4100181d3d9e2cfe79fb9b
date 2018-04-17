@@ -1,0 +1,9 @@
+package Assignment;
+
+public class Water extends FoodItemPar{
+
+	public Water() {
+		name = "Cocacola";
+	}
+	
+}

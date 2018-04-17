@@ -1,0 +1,45 @@
+package Assignment;
+
+public class Meal implements FoodPackage{
+
+	private Drinks drinks;
+	private MainItems mainItems;
+	private Candied sweet;
+	
+	
+	public BreakFast() {
+		drinks = new Drinks();
+		mainItems = new MainItems();
+		sweet = new Candied();
+		
+		addDrinks();
+		addMainFood();
+		addSweet();
+	}
+	
+	
+	@Override
+	public void addDrinks() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addMainFood() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void addSweet() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void printFoodPackage() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
