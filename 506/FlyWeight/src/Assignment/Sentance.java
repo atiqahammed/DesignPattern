@@ -23,7 +23,7 @@ public class Sentance {
 	    JPanel panel = new JPanel();
 	    JLabel jlabel = new JLabel(words);
 	    jlabel.setForeground(fontColor);
-	    jlabel.setFont(new Font(fontName,1,size));
+	    jlabel.setFont(new Font("SutonnyMJ",Font.PLAIN,16));
 	    panel.add(jlabel);
 	    panel.setBorder((Border) new LineBorder(borderColor)); // make it easy to see
 	    frame.add(panel, new GridBagConstraints());
