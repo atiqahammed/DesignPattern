@@ -6,7 +6,7 @@ public class UndoCommandMethod implements ICommandProcedurerMethods{
 
 	@Override
 	public void proceedCommand() {
-		// TODO Auto-generated method stub
+		System.out.println("undo");
 		
 	}
 

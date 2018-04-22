@@ -22,7 +22,7 @@ public class CommandProcessor {
 			System.out.print("Please Enter your command$: ");
 			String command = scanner.nextLine();
 			//System.out.println(command);
-			methodSelector.getCommandMethod(command).proceedCommand();
+			
 			
 		}
 		

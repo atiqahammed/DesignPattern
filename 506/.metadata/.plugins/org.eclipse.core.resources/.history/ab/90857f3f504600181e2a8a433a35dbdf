@@ -23,7 +23,7 @@ public class MethodSelector {
 		methodContainer.put("add", new AddCommand());
 	}
 	
-	public ICommandProcedurerMethods getCommandMethod(String key) {
+	public ICommandProcedurerMethods getCommandMethod(int key) {
 		return methodContainer.get(key);
 	}
 }
