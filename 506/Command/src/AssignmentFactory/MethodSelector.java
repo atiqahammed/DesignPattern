@@ -3,7 +3,7 @@ package AssignmentFactory;
 import java.util.HashMap;
 import java.util.Map;
 
-import AssignmentCommandSpliter.AddCommand;
+import AssignmentCommandSpliter.ChangeCommandMethod;
 import AssignmentCommandSpliter.RedoCommandMethod;
 import AssignmentCommandSpliter.UndoCommandMethod;
 import AssignmentInterfaces.ICommandProcedurerMethods;
@@ -20,7 +20,7 @@ public class MethodSelector {
 	private void initiate() {
 		methodContainer.put("redo", new RedoCommandMethod());
 		methodContainer.put("undo", new UndoCommandMethod());
-		methodContainer.put("add", new AddCommand());
+		methodContainer.put("update", new ChangeCommandMethod());
 	}
 	
 	public ICommandProcedurerMethods getCommandMethod(String key) {

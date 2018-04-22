@@ -24,6 +24,10 @@ public class TransformCommand implements ICommand{
 		circle.transform(x, y);
 		
 	}
+	
+	public void redo() {
+		execute();
+	}
 
 	@Override
 	public void undo() {
