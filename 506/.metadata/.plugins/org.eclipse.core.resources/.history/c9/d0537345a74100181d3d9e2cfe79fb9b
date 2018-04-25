@@ -1,8 +1,0 @@
-package Assignment;
-
-public interface FoodPlaner {
-	public void addDrinks();
-	public void addMainFood();
-	public void addSweet();
-	
-}

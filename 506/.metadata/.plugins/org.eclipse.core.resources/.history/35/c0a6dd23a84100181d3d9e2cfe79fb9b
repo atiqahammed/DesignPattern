@@ -1,9 +1,0 @@
-package Assignment;
-
-public interface FoodPackage {
-	private void addDrinks();
-	private void addMainFood();
-	private void addSweet();
-	private void printFoodPackage();
-	
-}

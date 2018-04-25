@@ -1,9 +1,0 @@
-package Assignment;
-
-public interface FoodPackage {
-	public void addDrinks();
-	public void addMainFood();
-	public void addSweet();
-	public FoodPackage getFoodPackage();
-	
-}
