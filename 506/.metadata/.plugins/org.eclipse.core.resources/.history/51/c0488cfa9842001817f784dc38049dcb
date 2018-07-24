@@ -1,8 +1,0 @@
-package classwork;
-
-public class Fascade {
-	
-	public void transact(int accountNumber, int scCode, int amount) {
-		
-	}
-}
